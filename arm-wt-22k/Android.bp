@@ -123,7 +123,7 @@ cc_defaults {
         },
     },
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "bounds",
             "unsigned-integer-overflow",
